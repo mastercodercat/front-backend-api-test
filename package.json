@@ -1,0 +1,24 @@
+{
+  "name": "front-backend-test",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "@types/underscore": "^1.11.3",
+    "async": "^2.0.0-rc.6",
+    "expect": "^1.20.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "mocha": "^2.5.3"
+  },
+  "scripts": {
+    "start": "node ./build/index.js",
+    "dev": "ts-node server/index.ts",
+    "test": "mocha",
+    "build": "tsc --build"
+  },
+  "author": "lperrin"
+}

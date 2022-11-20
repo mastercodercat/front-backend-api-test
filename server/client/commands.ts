@@ -1,0 +1,10 @@
+export const STEPS = "steps";
+export const LEFT = "left";
+export const RIGHT = "right";
+export const HOVER = "hover";
+export const DRAW = "draw";
+export const ERASER = "eraser";
+export const COORD = "coord";
+export const RENDER = "render";
+export const CLEAR = "clear";
+export const QUIT = "quit";
